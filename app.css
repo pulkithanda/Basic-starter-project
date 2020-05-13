@@ -1,0 +1,39 @@
+	.imagez{
+      		border-radius: 40%;
+      		animation-name: exo;
+      		animation-duration: 80s;
+      		animation-iteration-count: 20;
+      	}
+      @keyframes exo{ 
+      0%{transform: rotate(-60deg);}
+      50%{transform: rotate(60deg);}
+      100%{transform: rotate(0deg);}
+       }
+h1{
+	font-family: 'Roboto Slab';
+    color: white;	
+}
+p{
+	font-family: 'Roboto Slab';
+	color: white;
+}
+body{
+	background-image: url(https://i.gifer.com/7dDt.gif);
+}
+::-webkit-scrollbar-track {
+border-radius: 5px;
+background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: orange; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+.text{
+  height: 10px;
+  border: 25px;
+  width:50%;
+  box-shadow: 0 10px 10px -10px #006400 inset;
+}
